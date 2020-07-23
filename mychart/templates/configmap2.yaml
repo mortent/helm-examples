@@ -1,0 +1,4 @@
+{{- range $index, $map := .Values.configs }}
+---
+  {{- include "mychart.configmap" (dict "index" $index "value" $map) }}
+{{- end }}

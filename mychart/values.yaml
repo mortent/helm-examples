@@ -1,0 +1,11 @@
+configs:
+  - name: first
+  - name: second
+
+mysubchart:
+  name: mysubchart-chart
+  value: foo
+  
+mysubchart2:
+  name: mysubchart2-chart
+  value: bar
